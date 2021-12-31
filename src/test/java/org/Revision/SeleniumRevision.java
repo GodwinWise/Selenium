@@ -17,5 +17,8 @@ public class SeleniumRevision {
 	driver.findElement(By.id("email")).sendKeys("godwinwise");
 	driver.findElement(By.id("pass")).sendKeys("12345");
 	driver.findElement(By.xpath("//button[text()='Log In']")).click();
+	
+	driver.findElement(By.id("pass")).sendKeys("254316");
+	driver.close();
 }
 }
